@@ -102,7 +102,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta charset="UTF-8">
     <title>Currency Converter SignUp</title>
 
-     <link href="css/style.css" rel="stylesheet">
+     <link href="style.css" rel="stylesheet">
      
     <link rel = "currency-icon" type = "image/png" href = "./images/dollar.png"/>
     
