@@ -98,7 +98,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <link href="style.css" rel="stylesheet">
     
-    <link rel = "currency-icon" type = "image/png" href = "./images/dollar.png"/>
+    <link rel = "currency-icon" type = "image/png" href = "dollar.png"/>
     
     <!-- Font -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
