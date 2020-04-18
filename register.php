@@ -137,7 +137,7 @@ body {
 @media (min-width: 600px) 
 {
     body {
-        background: url(./images/bg.png) no-repeat center center fixed; 
+        background: url(bg.png) no-repeat center center fixed; 
         background-size: cover;
     }
  }   
