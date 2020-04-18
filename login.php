@@ -96,7 +96,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     
     <link rel = "currency-icon" type = "image/png" href = "./images/dollar.png"/>
     
