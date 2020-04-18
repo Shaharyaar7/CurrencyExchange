@@ -116,13 +116,25 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 <style>
 
-body{
-    background-image:url("bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}     
-    
+body {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125%; /* To compensate for mobile browser address bar space */
+    background: url(./images/bg.png) no-repeat; 
+    background-size: 100% 100%;
+}
+
+@media (min-width: 600px) 
+{
+    body {
+        background: url(./images/bg.png) no-repeat center center fixed; 
+        background-size: cover;
+    }
+ }   
+   
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
@@ -139,6 +151,10 @@ input[type=password] {
   border-radius: 10px;
 }
 
+.login_username{
+
+    color: black;
+}
 </style>
 
 <body class="h-100">
