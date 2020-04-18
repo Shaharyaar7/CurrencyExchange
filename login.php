@@ -120,7 +120,7 @@ body {
    background-image: url(bg.png);
     background-position: center;
     background-size: auto;
-    height: 150%;
+    height: 170%;
 }
 
    
