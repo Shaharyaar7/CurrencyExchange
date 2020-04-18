@@ -124,23 +124,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <style>
 
 body {
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 125%; /* To compensate for mobile browser address bar space */
-    background: url(bg.png) no-repeat; 
-    background-size: 100% 100%;
-}
-
-@media (min-width: 600px) 
-{
-    body {
-        background: url(bg.png) no-repeat center center fixed; 
-        background-size: cover;
-    }
- }   
+     background-image: url(bg.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat:no-repeat;
+    height: 170%;
+ }
    
 input[type=text] {
   width: 100%;
