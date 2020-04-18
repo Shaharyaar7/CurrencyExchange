@@ -21,7 +21,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
     <link rel = "currency-icon" type = "image/png" href = "./images/dollar.png"/>
     
-    <link href="css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     
     <!-- Font -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
