@@ -4,10 +4,11 @@
 session_start();
  
 // Check if the user is logged in, if not then redirect him to login page
-//if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-  //  header("location: login.php");
-   //exit;
-//}
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+header("location: login.php");
+exit;
+
+}
 ?>
 
 
@@ -19,7 +20,7 @@ session_start();
 <head>
     <title>Currency Conveter</title>
 
-    <link rel = "currency-icon" type = "image/png" href = "./images/dollar.png"/>
+    <link rel = "currency-icon" type = "image/png" href = "dollar.png"/>
     
     <link href="style.css" rel="stylesheet">
     
@@ -299,9 +300,9 @@ session_start();
                 </div>
                 <div class="col-lg-6">
                     <div class="social-icons">
-                        <a href="#"><span class="ti-facebook"></span></a>
-                        <a href="#"><span class="ti-twitter-alt"></span></a>
-                        <a href="#"><span class="ti-instagram"></span></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -310,16 +311,6 @@ session_start();
 
     </div>
 
-
-
-    <!-- jQuery and Bootstrap      
-    <script src="js/bootstrap.bundle.min.js"></script>
-
-    <script src="js/jquery-3.2.1.min.js"></script>
-    Plugins JS 
-    <script src="js/owl.carousel.min.js"></script>
-     -->
-    <!-- Custom JS -->
     <script src="js/script.js"></script>
 
 </body>
