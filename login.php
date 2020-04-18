@@ -117,7 +117,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <style>
 
 body{
-    background-image:url("./images/bg.png");
+    background-image:url("bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -128,6 +128,7 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border-radius: 10px;
 }
 
 input[type=password] {
