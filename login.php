@@ -123,7 +123,7 @@ body {
     left: 0;
     width: 100%;
     height: 125%; /* To compensate for mobile browser address bar space */
-    background: url(bg.png) no-repeat; 
+    background-image: url(bg.png) no-repeat; 
     background-size: 100% 100%;
 }
 
