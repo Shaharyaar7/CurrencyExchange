@@ -200,7 +200,7 @@ input[type=password] {
                             <div class="form-group">
                                 <input type="submit" class="btn btn-primary" value="Login">
                             </div>
-                            <p>Don't have an account? <a href="register.php" style="color: black;">Sign up now</a>.</p>
+                            <p  style="color: black;">Don't have an account? <a href="register.php" style="color: black;">Sign up now</a>.</p>
                         </form>
                     </div>
             </div>  
