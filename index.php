@@ -62,9 +62,7 @@ exit;
                                 <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#converter">COMPANY FEATURES</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#profiles">CURRENCY PROFILES</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a> </li>
-                                <li class="nav-item"> <a class="nav-link"> <?php . "User:" . echo htmlspecialchars($_SESSION["username"]); ?>
-                                </a></li>    
+                                <li class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a> </li>    
                                 <li class="nav-item"> <a class="nav-link" href="logout.php">LOGOUT</a> </li>
                             </ul>
                         </div>
