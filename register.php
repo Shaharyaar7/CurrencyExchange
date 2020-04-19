@@ -128,7 +128,7 @@ body {
     background-position: center;
     background-size: auto;
     background-repeat:no-repeat;
-    height: 170%;
+    height: 100%;
  }
    
 input[type=text] {
@@ -212,7 +212,7 @@ input[type=password] {
                         <input type="submit" class="btn btn-primary" value="Submit">
                         <input type="reset" class="btn btn-success" value="Reset">
                     </div>
-                    <p>Already have an account? <a style="color: black;" href="login.php">Login here</a>.</p>
+                    <p style="color:white;" >Already have an account? <a style="color: black;" href="login.php">Login here</a>.</p>
                 </form>
             </div>    
            </div> 
