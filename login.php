@@ -121,7 +121,7 @@ body {
     background-position: center;
     background-size: auto;
     background-repeat:no-repeat;
-    height: 170%;
+    height: 100%;
 }
 
    
